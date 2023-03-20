@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-wrapper {
+    @apply flex flex-wrap justify-center items-center mx-auto w-full flex-col bg-white rounded-xl shadow-xl divide-y-2 divide-neutral-400 py-4 px-2 md:flex-row md:divide-x-2 md:divide-y-0 md:justify-evenly md:py-6 lg:max-w-3xl;
+  }
+}
